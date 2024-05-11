@@ -1,0 +1,37 @@
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 600vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* container */
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container h1{
+    color: #fff;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 0.05em;
+    padding: 20px;
+}
